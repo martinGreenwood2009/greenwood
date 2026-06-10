@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TecnoChaco - Soluciones tecnológicas innovadoras para empresas en Paraguay. Desarrollo de software, redes, ciberseguridad y soporte IT." />
+  <meta name="keywords" content="tecnología, Paraguay, software, redes, soporte IT, ciberseguridad, Chaco" />
+  <meta property="og:title" content="TecnoChaco - Soluciones Tecnológicas" />
+  <meta property="og:description" content="Tu socio tecnológico de confianza en Paraguay" />
+  <meta property="og:type" content="website" />
+  <title>TecnoChaco | Soluciones Tecnológicas en Paraguay</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════ NAVBAR ═══════════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">Tecno<span class="logo-accent">Chaco</span></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn btn-primary nav-cta">Consulta Gratis</a>
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <div class="hero-grid"></div>
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Tecnología de punta en Paraguay
+        </div>
+        <h1 class="hero-title">
+          Impulsamos tu empresa<br />
+          con <span class="gradient-text">soluciones tech</span><br />
+          a medida
+        </h1>
+        <p class="hero-desc">
+          Somos el socio tecnológico que tu empresa necesita. Desarrollo de software, infraestructura de redes, ciberseguridad y soporte IT — todo bajo un mismo techo en el corazón del Paraguay.
+        </p>
+        <div class="hero-actions">
+          <a href="#servicios" class="btn btn-primary btn-lg">Ver servicios</a>
+          <a href="#nosotros" class="btn btn-ghost btn-lg">Conocenos</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-number" data-target="200">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Clientes activos</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-target="10">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Años de experiencia</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-number" data-target="500">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Proyectos entregados</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card-stack">
+          <div class="floating-card card-1">
+            <div class="card-icon">🛡️</div>
+            <div class="card-info">
+              <span class="card-title">Ciberseguridad</span>
+              <span class="card-sub">Protección 24/7</span>
+            </div>
+            <div class="card-badge green">Activo</div>
+          </div>
+          <div class="floating-card card-2">
+            <div class="card-icon">📊</div>
+            <div class="card-info">
+              <span class="card-title">Dashboard Analytics</span>
+              <span class="card-sub">Tiempo real</span>
+            </div>
+            <div class="card-chart">
+              <div class="bar" style="height:40%"></div>
+              <div class="bar" style="height:70%"></div>
+              <div class="bar" style="height:55%"></div>
+              <div class="bar" style="height:90%"></div>
+              <div class="bar" style="height:65%"></div>
+            </div>
+          </div>
+          <div class="floating-card card-3">
+            <div class="card-icon">✅</div>
+            <div class="card-info">
+              <span class="card-title">Sistema desplegado</span>
+              <span class="card-sub">0 errores detectados</span>
+            </div>
+          </div>
+          <div class="hero-main-card">
+            <div class="main-card-header">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            </div>
+            <div class="code-block">
+              <span class="code-comment">// TecnoChaco — Sistema activo</span><br/>
+              <span class="code-kw">const</span> solución = {<br/>
+              &nbsp;&nbsp;<span class="code-key">empresa</span>: <span class="code-str">"Tu empresa"</span>,<br/>
+              &nbsp;&nbsp;<span class="code-key">estado</span>: <span class="code-str">"✅ Optimizado"</span>,<br/>
+              &nbsp;&nbsp;<span class="code-key">soporte</span>: <span class="code-str">"24/7 activo"</span><br/>
+              };<br/><br/>
+              <span class="code-kw">export default</span> solución;
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Desliza</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ LOGOS BANDA ═══════════════════ -->
+  <section class="logos-band">
+    <div class="logos-container">
+      <p class="logos-label">Tecnologías que dominamos</p>
+      <div class="logos-track">
+        <div class="logos-inner">
+          <span class="tech-badge">React</span>
+          <span class="tech-badge">Node.js</span>
+          <span class="tech-badge">Python</span>
+          <span class="tech-badge">AWS</span>
+          <span class="tech-badge">Docker</span>
+          <span class="tech-badge">Cisco</span>
+          <span class="tech-badge">PostgreSQL</span>
+          <span class="tech-badge">Laravel</span>
+          <span class="tech-badge">MongoDB</span>
+          <span class="tech-badge">Kubernetes</span>
+          <span class="tech-badge">React</span>
+          <span class="tech-badge">Node.js</span>
+          <span class="tech-badge">Python</span>
+          <span class="tech-badge">AWS</span>
+          <span class="tech-badge">Docker</span>
+          <span class="tech-badge">Cisco</span>
+          <span class="tech-badge">PostgreSQL</span>
+          <span class="tech-badge">Laravel</span>
+          <span class="tech-badge">MongoDB</span>
+          <span class="tech-badge">Kubernetes</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ SERVICIOS ═══════════════════ -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestros servicios</span>
+        <h2 class="section-title">Todo lo que tu empresa<br/>necesita en tecnología</h2>
+        <p class="section-desc">Ofrecemos soluciones integrales adaptadas a cada etapa del crecimiento de tu negocio.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card featured" data-aos="fade-up">
+          <div class="service-icon-wrap">
+            <div class="service-icon">💻</div>
+          </div>
+          <h3 class="service-title">Desarrollo de Software</h3>
+          <p class="service-desc">Creamos aplicaciones web y móviles a medida: desde ERP hasta plataformas de comercio electrónico, con tecnologías modernas y escalables.</p>
+          <ul class="service-list">
+            <li>Aplicaciones web a medida</li>
+            <li>Apps móviles iOS &amp; Android</li>
+            <li>APIs REST &amp; microservicios</li>
+            <li>Integraciones con terceros</li>
+          </ul>
+          <a href="#contacto" class="service-link">Solicitar cotización →</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-icon-wrap">
+            <div class="service-icon">🌐</div>
+          </div>
+          <h3 class="service-title">Redes e Infraestructura</h3>
+          <p class="service-desc">Diseñamos, implementamos y mantenemos redes empresariales de alta disponibilidad, tanto físicas como en la nube.</p>
+          <ul class="service-list">
+            <li>Redes LAN / WAN / VLAN</li>
+            <li>WiFi corporativo</li>
+            <li>Servidores &amp; virtualización</li>
+            <li>Cloud (AWS, Azure, GCP)</li>
+          </ul>
+          <a href="#contacto" class="service-link">Solicitar cotización →</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-icon-wrap">
+            <div class="service-icon">🛡️</div>
+          </div>
+          <h3 class="service-title">Ciberseguridad</h3>
+          <p class="service-desc">Protegemos los activos digitales de tu empresa con auditorías, monitoreo continuo y planes de respuesta a incidentes.</p>
+          <ul class="service-list">
+            <li>Auditorías de seguridad</li>
+            <li>Firewall &amp; VPN empresarial</li>
+            <li>Monitoreo SOC 24/7</li>
+            <li>Capacitación al personal</li>
+          </ul>
+          <a href="#contacto" class="service-link">Solicitar cotización →</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-icon-wrap">
+            <div class="service-icon">🔧</div>
+          </div>
+          <h3 class="service-title">Soporte IT</h3>
+          <p class="service-desc">Mesa de ayuda, mantenimiento preventivo y correctivo, y administración de sistemas para que tu operación nunca se detenga.</p>
+          <ul class="service-list">
+            <li>Help desk remoto y presencial</li>
+            <li>Mantenimiento preventivo</li>
+            <li>Gestión de licencias</li>
+            <li>Backup &amp; recuperación</li>
+          </ul>
+          <a href="#contacto" class="service-link">Solicitar cotización →</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-icon-wrap">
+            <div class="service-icon">📈</div>
+          </div>
+          <h3 class="service-title">Consultoría Digital</h3>
+          <p class="service-desc">Acompañamos la transformación digital de tu empresa con estrategia, roadmaps tecnológicos y gestión del cambio.</p>
+          <ul class="service-list">
+            <li>Diagnóstico tecnológico</li>
+            <li>Hoja de ruta digital</li>
+            <li>Optimización de procesos</li>
+            <li>Capacitación equipos</li>
+          </ul>
+          <a href="#contacto" class="service-link">Solicitar cotización →</a>
+        </div>
+
+        <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-icon-wrap">
+            <div class="service-icon">🤖</div>
+          </div>
+          <h3 class="service-title">Inteligencia Artificial</h3>
+          <p class="service-desc">Integramos IA y automatización en tus procesos de negocio para aumentar la productividad y reducir costos operativos.</p>
+          <ul class="service-list">
+            <li>Chatbots y asistentes IA</li>
+            <li>Automatización RPA</li>
+            <li>Análisis predictivo</li>
+            <li>Modelos de ML a medida</li>
+          </ul>
+          <a href="#contacto" class="service-link">Solicitar cotización →</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ NOSOTROS ═══════════════════ -->
+  <section class="section section-dark" id="nosotros">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <span class="section-tag">¿Quiénes somos?</span>
+          <h2 class="section-title light">Tecnología local,<br/>impacto global</h2>
+          <p class="about-desc">Somos una empresa paraguaya fundada en 2014, con sede en Filadelfia, Chaco. Nacimos para cerrar la brecha tecnológica entre las empresas del interior del país y el mundo digital.</p>
+          <p class="about-desc">Nuestro equipo de más de 30 profesionales certificados trabaja con metodologías ágiles para entregar proyectos a tiempo, con la calidad que tu empresa merece.</p>
+          <div class="values-grid">
+            <div class="value-item">
+              <span class="value-icon">🎯</span>
+              <div>
+                <h4>Orientados a resultados</h4>
+                <p>Medimos nuestro éxito por el impacto real en tu negocio.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">🤝</span>
+              <div>
+                <h4>Alianza de largo plazo</h4>
+                <p>No somos proveedores, somos tu equipo tecnológico.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">🚀</span>
+              <div>
+                <h4>Innovación constante</h4>
+                <p>Siempre a la vanguardia de las últimas tecnologías.</p>
+              </div>
+            </div>
+            <div class="value-item">
+              <span class="value-icon">🏆</span>
+              <div>
+                <h4>Calidad garantizada</h4>
+                <p>ISO 9001 y estándares internacionales de desarrollo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual">
+          <div class="about-image-frame">
+            <div class="about-image-placeholder">
+              <div class="team-graphic">
+                <div class="tg-circle tg-c1">30+</div>
+                <div class="tg-label">Profesionales<br/>certificados</div>
+                <div class="tg-badges">
+                  <span class="tg-badge">AWS</span>
+                  <span class="tg-badge">Cisco</span>
+                  <span class="tg-badge">Microsoft</span>
+                  <span class="tg-badge">Google</span>
+                </div>
+              </div>
+            </div>
+            <div class="about-badge-float badge-years">
+              <span class="badge-num">10+</span>
+              <span class="badge-txt">Años<br/>de experiencia</span>
+            </div>
+            <div class="about-badge-float badge-clients">
+              <span class="badge-num">200+</span>
+              <span class="badge-txt">Clientes<br/>satisfechos</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PROCESO ═══════════════════ -->
+  <section class="section" id="proceso">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Cómo trabajamos</span>
+        <h2 class="section-title">Un proceso claro<br/>de principio a fin</h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>Diagnóstico</h3>
+            <p>Analizamos tu situación tecnológica actual, identificamos oportunidades de mejora y los puntos críticos a resolver.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>Propuesta</h3>
+            <p>Diseñamos una solución personalizada con cronograma, costos transparentes y entregables bien definidos.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Ejecución</h3>
+            <p>Implementamos con metodología ágil, con reportes semanales de avance y demos periódicas del progreso.</p>
+          </div>
+        </div>
+        <div class="process-connector"></div>
+        <div class="process-step">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Soporte</h3>
+            <p>Acompañamos post-lanzamiento con soporte dedicado, monitoreo continuo y mejoras iterativas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ PROYECTOS ═══════════════════ -->
+  <section class="section section-gray" id="proyectos">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Casos de éxito</span>
+        <h2 class="section-title">Proyectos que hablan<br/>por sí solos</h2>
+        <p class="section-desc">Resultados reales para empresas reales del Paraguay y la región.</p>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-image pi-1">
+            <div class="project-tag">E-commerce</div>
+          </div>
+          <div class="project-info">
+            <h3>Plataforma de ventas online</h3>
+            <p>Marketplace B2B para distribuidora agrícola del Chaco. Integración con ERP y pagos digitales.</p>
+            <div class="project-meta">
+              <span class="project-stat">↑ 340% ventas online</span>
+              <span class="project-tech">React · Laravel · MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-image pi-2">
+            <div class="project-tag">Infraestructura</div>
+          </div>
+          <div class="project-info">
+            <h3>Red corporativa unificada</h3>
+            <p>Implementación de red SD-WAN para empresa ganadera con 8 sucursales en el interior del país.</p>
+            <div class="project-meta">
+              <span class="project-stat">99.9% uptime garantizado</span>
+              <span class="project-tech">Cisco · Meraki · SD-WAN</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="project-image pi-3">
+            <div class="project-tag">Software a medida</div>
+          </div>
+          <div class="project-info">
+            <h3>Sistema de gestión hospitalaria</h3>
+            <p>HIS completo para clínica regional: historias clínicas, turnos, facturación y farmacia integrados.</p>
+            <div class="project-meta">
+              <span class="project-stat">↓ 60% tiempo administrativo</span>
+              <span class="project-tech">Angular · Node.js · PostgreSQL</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ TESTIMONIOS ═══════════════════ -->
+  <section class="section" id="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Testimonios</span>
+        <h2 class="section-title">Lo que dicen nuestros<br/>clientes</h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testimonial-card" data-aos="fade-up">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"TecnoChaco transformó completamente nuestra operación. En 4 meses teníamos un sistema integrado que nos ahorró horas de trabajo diario."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar av1">MR</div>
+            <div>
+              <strong>María Rodríguez</strong>
+              <span>Gerente General · AgroCoop S.A.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"El equipo de soporte siempre responde rápido. Da tranquilidad saber que tenemos respaldo tecnológico cuando lo necesitamos."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar av2">JM</div>
+            <div>
+              <strong>Juan Martínez</strong>
+              <span>Director IT · Clínica San Rafael</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="stars">★★★★★</div>
+          <p class="testimonial-text">"La migración a la nube fue impecable. Sin interrupciones, sin pérdida de datos. Profesionalismo de nivel internacional, acá en Paraguay."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar av3">LC</div>
+            <div>
+              <strong>Luisa Centurión</strong>
+              <span>CTO · Distribuidora Chaco Norte</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CTA BAND ═══════════════════ -->
+  <section class="cta-band">
+    <div class="cta-orb"></div>
+    <div class="container">
+      <div class="cta-content">
+        <h2>¿Listo para llevar tu empresa<br/>al siguiente nivel?</h2>
+        <p>Hablemos sin compromiso. Nuestros especialistas analizan tu situación y te proponen la mejor solución tecnológica.</p>
+        <div class="cta-actions">
+          <a href="#contacto" class="btn btn-white btn-lg">Agendar reunión gratuita</a>
+          <a href="tel:+595212345678" class="btn btn-outline-white btn-lg">📞 Llamar ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CONTACTO ═══════════════════ -->
+  <section class="section" id="contacto">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <span class="section-tag">Contacto</span>
+          <h2 class="section-title">Hablemos de<br/>tu proyecto</h2>
+          <p class="contact-desc">Completá el formulario y te contactamos en menos de 24 horas hábiles con una propuesta personalizada.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="ci-icon">📍</div>
+              <div>
+                <strong>Oficina central</strong>
+                <span>Av. Hindenburg 234, Filadelfia,<br/>Boquerón, Paraguay</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon">📞</div>
+              <div>
+                <strong>Teléfono</strong>
+                <span>+595 21 234 5678</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon">✉️</div>
+              <div>
+                <strong>Email</strong>
+                <span>info@tecnochaco.com.py</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="ci-icon">🕒</div>
+              <div>
+                <strong>Horarios</strong>
+                <span>Lun–Vie: 08:00–18:00<br/>Soporte 24/7 para clientes</span>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-btn" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="LinkedIn">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-btn" aria-label="WhatsApp">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Juan Pérez" required />
+                <span class="form-error" id="err-nombre"></span>
+              </div>
+              <div class="form-group">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Tu empresa S.A." />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="juan@empresa.com.py" required />
+                <span class="form-error" id="err-email"></span>
+              </div>
+              <div class="form-group">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="+595 21 000 0000" />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="servicio">Servicio de interés</label>
+              <select id="servicio" name="servicio">
+                <option value="">Seleccioná un servicio</option>
+                <option value="software">Desarrollo de Software</option>
+                <option value="redes">Redes e Infraestructura</option>
+                <option value="seguridad">Ciberseguridad</option>
+                <option value="soporte">Soporte IT</option>
+                <option value="consultoria">Consultoría Digital</option>
+                <option value="ia">Inteligencia Artificial</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensaje">Mensaje *</label>
+              <textarea id="mensaje" name="mensaje" rows="5" placeholder="Contanos brevemente sobre tu proyecto o necesidad..." required></textarea>
+              <span class="form-error" id="err-mensaje"></span>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="submitBtn">
+              <span class="btn-text">Enviar mensaje</span>
+              <span class="btn-loading hidden">Enviando...</span>
+            </button>
+            <div class="form-success hidden" id="formSuccess">
+              ✅ ¡Mensaje enviado! Te contactamos en menos de 24 hs.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="#inicio" class="nav-logo">
+              <span class="logo-icon">⚡</span>
+              <span class="logo-text">Tecno<span class="logo-accent">Chaco</span></span>
+            </a>
+            <p>Tu socio tecnológico de confianza en el corazón del Paraguay. Soluciones a medida para empresas que quieren crecer.</p>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook" class="social-btn sm">f</a>
+              <a href="#" aria-label="LinkedIn" class="social-btn sm">in</a>
+              <a href="#" aria-label="Instagram" class="social-btn sm">ig</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Servicios</h4>
+            <ul>
+              <li><a href="#servicios">Desarrollo de Software</a></li>
+              <li><a href="#servicios">Redes e Infraestructura</a></li>
+              <li><a href="#servicios">Ciberseguridad</a></li>
+              <li><a href="#servicios">Soporte IT</a></li>
+              <li><a href="#servicios">Consultoría Digital</a></li>
+              <li><a href="#servicios">Inteligencia Artificial</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Empresa</h4>
+            <ul>
+              <li><a href="#nosotros">Sobre nosotros</a></li>
+              <li><a href="#proyectos">Casos de éxito</a></li>
+              <li><a href="#proceso">Cómo trabajamos</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contacto</h4>
+            <ul class="footer-contact-list">
+              <li>📍 Av. Hindenburg 234, Filadelfia, Paraguay</li>
+              <li>📞 +595 21 234 5678</li>
+              <li>✉️ info@tecnochaco.com.py</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>© 2024 TecnoChaco. Todos los derechos reservados.</p>
+        <div class="footer-legal">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos de uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
